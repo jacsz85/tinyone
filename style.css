@@ -1,0 +1,300 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*reset stylów*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ^koniec resetu */
+
+/* Globalne styl tekstu */
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1.4;
+    color: #333;
+	background: #fff;
+}
+
+h2 {
+	font-size: 25px;
+	font-weight: 540; 
+	padding-bottom: 30px;
+}
+
+h4 {
+	font-size: 17px;
+	font-weight: 420;
+	padding-bottom: 30px;
+}
+
+p {
+	font-size: 14px;
+	padding-bottom: 43px;
+	font-weight: 335;
+}
+
+
+.col-half {
+	width: 50%;
+	float: left;
+}
+	
+.col-one-third {
+	width: 33.333%;
+	float: left;
+}
+
+/*.col-half, .col-one-third {
+	width: 100%;
+	float: none;
+}*/
+
+.container {
+	max-width: 930px;
+	margin: auto;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.center-text h4 {
+	margin-top: -15px;
+}
+
+/* Header */
+.top {
+	clear: both;
+	background: #fcdb00;
+	padding-top: 60px;
+	overflow: auto;
+}
+
+.logo {
+	float: left;
+	line-height: 43px;
+}
+
+.nav-menu {
+    float: right;
+}
+
+.nav-menu li {
+    float: left;
+	padding: 0px 30px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.nav-menu ul li a {
+	text-decoration: none;
+	color: #333;
+}
+
+.nav-menu ul li a:hover {
+	text-decoration: none;
+	font-size: 20px;
+	transition-duration: 0.4s;
+}
+
+.carousel-wrapper {
+	padding-top: 70px;
+}
+
+/*.col-half {
+	float: left;
+}*/
+
+.col-half h2 {
+	padding-top: 60px;
+}
+
+.col-half h4 {
+	max-width: 313px;
+}
+.col-half p {
+	max-width: 395px;
+}
+
+.store-buttons a {
+	padding: 0px 20px 0px 0px;
+	display: inline-block;
+}
+
+#tablet img {
+	float: right;
+	padding-right: 28px;
+	padding-bottom: 40px;
+}
+
+.slider-bullets {
+	margin: auto;
+	text-align: center;
+}
+
+.slider-bullets ul {
+	padding-bottom: 40px;
+}
+.slider-bullets li {
+	display: inline;
+	color: #feed80;
+}
+
+/* Features - section */
+
+.features {
+	clear: both;
+	padding: 80px 0px 80px 0px;
+	overflow: auto;
+}
+
+.center-text h4 {
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+.feature-row {
+	display: block;
+	margin-top: 30px;
+}
+
+.col-one-third img {
+	border: 0px;
+	margin-left: 40px;
+}
+
+.fright {
+	float: right;
+	max-width: 208px;
+}
+
+.fright p {
+	margin-top: -22px;
+}
+
+/* Bottom */
+
+.bottom-section {
+	background: #010101;
+	padding: 80px 0px 180px 0px;
+}
+
+
+.bottom-h2 {
+	color: #fcdb00;
+}
+
+.bottom-h4 {
+	color: #898989;
+}
+
+.subscribe-form {
+	width: 60%;
+	padding-left: 20%;
+	line-height: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.input-container {
+	float: left;
+	margin-right: 20px;
+	width: 80%;
+}
+
+.input {
+	width: 100%;
+	height: 30px;
+	border-radius: 5px;	
+	border: 1px solid;
+	padding: 5px 0px 5px 15px;
+}
+
+.submit-button button {
+	width: 15%;
+	height: 43px;
+	border-radius: 5px;	
+	border: 1px solid;
+	background: #fcdb00;
+	text-transform: uppercase;
+}
+
+.button {
+	transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+	background-color: #ae9701;
+}
+
+.social-links {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.social-links a {
+	margin: 20px;
+	display: inline-block;
+}
+
+.col-one-five {
+	width: 20%;
+	float: left;
+	position: relative;
+	color: #898989;
+	font-size: 13px;
+}
+
+.links ul a {
+	color: #898989;
+	text-decoration: none;
+}
+
+.links ul a:hover {
+	color: #fcdb00;
+}
+
+
+
